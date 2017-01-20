@@ -1,0 +1,503 @@
+[33mcommit 9715730912e24a0ee159bc142bd54501bbddf85c[m
+Author: shashibest <shashibest275@gmail.com>
+Date:   Fri Jan 20 14:55:03 2017 +0530
+
+    hi
+
+[33mcommit 313a568ad27cd8d08438d4ed28309342e009e987[m
+Author: shashibest <shashibest275@gmail.com>
+Date:   Wed Jan 11 01:15:14 2017 +0530
+
+    add the angular-seed project
+
+[33mcommit 87fe0443b2250a4687e737f5dae045c2f09e7edb[m
+Author: NagarajuMusini <nagaraju.musini@uberops.co.in>
+Date:   Mon Jan 9 19:51:56 2017 +0530
+
+    Changing route doesn't scroll to top in the new page is fixed
+
+[33mcommit fa307264b79adac171d756c3ec40d2cd08de04ef[m
+Author: NagarajuMusini <nagaraju.musini@uberops.co.in>
+Date:   Mon Jan 9 19:49:14 2017 +0530
+
+    Changing route doesn't scroll to top in the new page is fixed
+
+[33mcommit 9ca17826290e8c7159eb1a2b93494a30ad083a43[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Mon Nov 21 13:35:56 2016 +0200
+
+    docs(README.md): minor typo/wording/style improvements
+    
+    Closes #384
+
+[33mcommit 970dfae79a3de7f83af8d1410e13f41b94176e1e[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Mon Nov 21 13:34:59 2016 +0200
+
+    docs(README.md): highlight the JDK dependency in the "Depedencies" section
+
+[33mcommit e48f7f1763be3bdb738e8ae8a96449967f140d78[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Mon Nov 21 13:25:21 2016 +0200
+
+    feat(*): add npm script for updating bower dependencies as well
+    
+    Previously, is was suggested to run `bower update`, which would only work if `bower` was globally
+    installed. Since a global `bower` installation should not be a prerequisite for the seed project, it
+    is now possible to update bower dependencies via the new `update-deps` npm script.
+    
+    Fixes #383
+
+[33mcommit bf7f2a30ea1ff9acb71f97d3cb530f43a239143d[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Mon Nov 21 13:12:43 2016 +0200
+
+    docs(README.md): remove outdated CloudBees integration
+    
+    The CloudBees URL doesn't seem to work any more. And the
+    `CloudBees-community/angular-js-clickstart` (now moved to `CloudBees-attic`)
+    relies on the patched `michaelneale/angular-seed`, which hasn't been updated for
+    ~2.5 years and is more than 40 commits behind `angular/angular-seed`.
+
+[33mcommit 437e0bb3eb1f8fbb7a034ee38e51f474748f6ac7[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Tue Oct 18 13:44:17 2016 +0300
+
+    chore(package): update to Protractor 4.x
+    
+    This also fixes some issues on linux (e.g. angular/angular-phonecat#377).
+    
+    Closes #378
+
+[33mcommit 8f1fb89dac3de6810da7565bedab28ccad29abd8[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Mon Oct 3 15:55:09 2016 +0300
+
+    docs(README.md): fix typo (Stadalone --> Standalone)
+
+[33mcommit da5982d37a143bff0f143f6da0c348b5bd884be8[m
+Author: Gil Hanan <gil.hanan@gmail.com>
+Date:   Wed Sep 21 13:36:56 2016 +0300
+
+    refactor(app.css): simplify rules for styling menu item seperator
+    
+    Closes #367
+
+[33mcommit 92f24962e38aaafad3655afc935967e255eb6867[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Thu Sep 8 19:30:49 2016 +0300
+
+    docs(README.md): add links for Selenium and JDK
+
+[33mcommit bb42d55e91a392dde907422d2cb45a9c531e63d5[m
+Author: spooky <spooky9@poczta.onet.pl>
+Date:   Tue Dec 15 14:27:16 2015 +0100
+
+    docs(README.md): mention JDK dependency for Protractor
+    
+    Fixes #222
+    Closes #312
+
+[33mcommit eddde870c90160eab0f360663e999c5db24793d3[m
+Author: Georgios Kalpakas <kalpakas.g@gmail.com>
+Date:   Thu Aug 25 16:53:25 2016 +0300
+
+    chore(travis): switch to Chrome, Node.js 4.5.x and Ubuntu "trusty"
+    
+    Closes #360
+
+[33mcommit 11d1b59d14cd87a7944f8cf0ca075c24a5cc9622[m
+Author: Stanislav Termosa <termosa.stanislav@gmail.com>
+Date:   Tue Aug 16 12:00:22 2016 +0300
+
+    fix(index-async): correct html5-boilerplate paths
+    
+    Paths to html5-boilerplate resource were configured incorrectly.
+    These paths are corrected.
+    
+    Closes #356
+
+[33mcommit 18a925eb74efcbb34d0e05576234b5d5fb43b8d8[m
+Author: Alexander Belov <ipritoflex@yandex.ru>
+Date:   Fri May 1 16:46:47 2015 +0300
+
+    docs(LICENSE): update copyright year to 2016
+    
+    Closes #269
+
+[33mcommit 28398f1bc3337548bcd44509275b29defd4c2d72[m
+Author: Richard Guan <guan.rich@gmail.com>
+Date:   Sat Oct 11 13:13:53 2014 -0700
+
+    docs(README): update for consistenty ("End to End" --> "end-to-end")
+    
+    This test refers to general end-to-end tests.
+    
+    Closes #235
+
+[33mcommit a223b7789c05e54c7ac3ab95ce917a625d8e7198[m
+Author: Georgios Kalpakas <g.kalpakas@hotmail.com>
+Date:   Fri Jun 17 12:44:22 2016 +0300
+
+    fix(index-async): properly inline text containing `$$`
+    
+    When using `'...'.replace(regex, replacement)`, any instances of `$$` inside `replacement` will be
+    converted to `$` (see
+    [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_string_as_a_parameter).
+    Thus, for example `$$minErr` and `$$moduleName` are converted to `$minErr` and `$moduleName`.
+    This commit fixes it, by first using `'...'.split(regex).join(replacement)` instead.
+    
+    Fixes #283
+    Closes #286
+
+[33mcommit 50353b9da1469c94566a4158fcc8440c6c963612[m
+Author: Georgios Kalpakas <g.kalpakas@hotmail.com>
+Date:   Fri Jun 17 12:12:40 2016 +0300
+
+    fix(index-async): fix inlining of `angular-loader` into `index-async.html`
+    
+    Previously, `angular-loader` was never inlined into `index-async.html`, because running `sed` with a
+    multiline RegExp fails to match anything, since `sed` matches per line. Using the `fs` module
+    directly, solves the issues.
+    (Now, we no longer depend on `shelljs`.)
+    
+    Closes #309
+
+[33mcommit a0f087568ee7ad889ad9a717f99e71c255172aed[m
+Author: Georgios Kalpakas <g.kalpakas@hotmail.com>
+Date:   Sun May 22 00:29:15 2016 +0300
+
+    chore(*): use `!` as hash-prefix
+    
+    Closes #341
+
+[33mcommit aabd39b7d3d38fe27221dfefceb8a2b361f6da08[m
+Author: Georgios Kalpakas <g.kalpakas@hotmail.com>
+Date:   Sun May 22 00:14:04 2016 +0300
+
+    chore(*): serve from the `app/` directory
+    
+    Closes #341
+
+[33mcommit 239b5157baa9cf2fd99b471ab53580d58aabea9d[m
+Author: Georgios Kalpakas <g.kalpakas@hotmail.com>
+Date:   Sat May 21 14:56:45 2016 +0300
+
+    chore(*): update dependencies and configuration files
+    
+    Closes #341
+
+[33mcommit a50f4c8a7a9c90942fac38aeb35ea1be183d2a76[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Mon Jun 15 13:41:06 2015 +0100
+
+    chore(protractor): update to use protractor v2.1.0
+
+[33mcommit fff0736468a9004866eef49179c497cf39e3f868[m
+Author: Pedro Machado Santa <pedro.santa@gmail.com>
+Date:   Sun Jun 14 23:27:20 2015 +0100
+
+    chore(bower.json): Update angular dependency to ~1.4.0
+
+[33mcommit f96e3633605448a717ac7e458ccab945a4d49844[m
+Author: Pedro Machado Santa <pedro.santa@gmail.com>
+Date:   Sun Jun 14 20:26:48 2015 +0100
+
+    chore(package.json): update karma, add karma plugins dep
+
+[33mcommit 97275d998f9efc9e49efed4b0ce2a60e721b256c[m
+Author: Pedro Machado Santa <pedro.santa@gmail.com>
+Date:   Sun Jun 14 20:25:12 2015 +0100
+
+    chore(bower.son): update angular dep to 1.3.x, html5-boilerplate
+
+[33mcommit de30ee955c55ddf27b8fd15789ad18206bbbc285[m
+Author: Pete Bacon Darwin <pete@bacondarwin.com>
+Date:   Wed Oct 29 12:20:42 2014 +0000
+
+    docs(README): add alternative git clone method
+    
+    Closes #239
+
+[33mcommit 6ca94d46e334b47e8e6066b2ea0ac79ffcee5c80[m
+Author: Fatih Kadir Akın <fka@fatihak.in>
+Date:   Thu Oct 2 13:20:46 2014 +0300
+
+    refact(index.html): remove self closing slash for link tag.
+    
+    You don't need it when doctype is HTML5 and also the others above already
+    don't have one.
+    
+    Closes #232
+
+[33mcommit fd434379665db842cde597ceeaf35fd1fa979867[m
+Author: Mikael Härsjö <mikaelharsjo@gmail.com>
+Date:   Tue Sep 23 14:40:35 2014 +0200
+
+    docs(README): fix typo
+    
+    Closes #229
+
+[33mcommit 01191df1869eb39e346214adf43230a991250fc1[m
+Author: EC2 Default User <ec2-user@ip-172-31-35-227.us-west-2.compute.internal>
+Date:   Sun Jun 1 01:51:33 2014 +0000
+
+    chore(package.json): fix path to angular-load.min.js.map in "update-index-async" command
+    
+    This fixes the 404 not found when it tries to retrieve this map file and can't because
+    the path is wrong.
+    
+    Note that you won't see that error if you have JavaScript source maps turned off.
+    
+    Closes #197
+
+[33mcommit 20e8bb213dcf2e064e11b352c2609a0c81cb9377[m
+Author: Joe White <git@excastle.com>
+Date:   Fri May 23 06:35:23 2014 -0500
+
+    chore(package.json): remove local HTTP server's cache-control header
+    
+    Disable the local HTTP server's cache-control header, to fix the problem
+    where the browser wouldn't reload templateUrl-based directive templates.
+    
+    Fixes #193
+    Closes #194
+
+[33mcommit c85d9614d1b540274df0833606d07860918d0583[m
+Author: Aleksandr Fedorov <faost@mail.ru>
+Date:   Thu Jul 10 16:53:16 2014 +0400
+
+    docs(scenarios): fix link to protractor docs
+    
+    Closes #206
+
+[33mcommit ccb1d025d184760c742e99ce00f3b455ea9a5077[m
+Author: Nicholas Palaniuk <npalaniuk@luxre.com>
+Date:   Fri Aug 22 02:44:25 2014 -0700
+
+    docs(README): fix grammar and ambiguous sentence
+    
+    Closes #223
+
+[33mcommit 1af9353bae3ba2b2bc537340447c46a06555d4bc[m
+Author: Claudio Venturini <claudio.venturini1@tiscali.it>
+Date:   Mon Jul 21 13:22:07 2014 +0200
+
+    docs(README): fix link to Jasmine
+    
+    Closes #209
+
+[33mcommit 2dab43477295c6cbe4cf67b79bd0dc21da1cfc03[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Sun Aug 31 21:38:51 2014 +0100
+
+    chore(package.json): update to protractor 1.1.1
+
+[33mcommit 0847b751c221516f04e1d02f38ae34c0e7873f4e[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Wed Aug 20 08:10:36 2014 +0100
+
+    refact(*): further architectural improvements
+
+[33mcommit e5b915fae48f29608509e77c12b2e2f9f9ae5abe[m
+Author: Addison <Addisonedwardlee@gmail.com>
+Date:   Wed Aug 20 08:06:08 2014 +0100
+
+    refact(*): update overall application architecture to match best practices
+
+[33mcommit 9d0b43b64a0f9176499a437f8f793441fbaf3231[m
+Author: Matt Broadstone <mbroadstone@devonit.com>
+Date:   Fri Mar 28 18:19:47 2014 -0400
+
+    refact(*): refactor app layout to conform to best practices
+
+[33mcommit 0edde11d781eb2834561db30c4b4a4778e27907c[m
+Author: M. Saiqul Haq <saiqulhaq@gmail.com>
+Date:   Thu Jul 31 08:18:31 2014 +0700
+
+    chore(travis): node js version should between quotes
+    
+    node js version should between quotation marks based on
+    http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+    
+    Closes #213
+
+[33mcommit 238b1a9aaa34e6ef98c6aaa0418c24c0c19dd2e3[m
+Author: Lee Dydo <khobalt@gmail.com>
+Date:   Tue May 13 14:49:38 2014 -0400
+
+    docs(README): fix typos
+    
+    Closes #190
+
+[33mcommit 05831d4c8de76d47e33efe0d55007cca3365d146[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Wed May 7 17:48:24 2014 +0100
+
+    fix(index-async): correct the path to bower_components
+
+[33mcommit 9cc6f6aca4d2110fdffce79d8ddf51acbfff2c60[m
+Author: Phillip Spitler <prs@sproutkey.com>
+Date:   Sun May 4 14:03:08 2014 -0400
+
+    fix(index): remove invalid path references
+    
+    A few invalid paths which were referenced in index.html were removed.
+    These paths became invalid due to commit daf71f27ba1ae0801f0f3235eaa87598f0912a59
+    which moved where the bower_components directory is placed.
+    
+    Closes #184
+
+[33mcommit daf71f27ba1ae0801f0f3235eaa87598f0912a59[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri May 2 22:06:52 2014 +0100
+
+    chore(bower): move bower_components under the app folder
+    
+    This will help web servers who are not happy to serve up files outside
+    the "root" folder of the application.
+    
+    Closes #183
+    Closes #182
+
+[33mcommit d1304002dbbf63c080a29c83fcec6b5994bcb4aa[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Sat May 3 20:44:06 2014 +0100
+
+    test(controllers): provide $scope when instantiating controllers
+
+[33mcommit c42a34dce1e9024c8c9e97fa5174439f88ca3ebd[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Sat May 3 20:43:31 2014 +0100
+
+    chore(bower): fix angular-mocks dependency
+
+[33mcommit bdad3a4f4ce883232f2675117024e091a746d841[m
+Author: Michael Neale <michael.neale@gmail.com>
+Date:   Thu Apr 17 11:54:28 2014 +1000
+
+    chore(karma): add junit-reporter
+    
+    We need to list karma-junit-reporter as a plugin and include it as a node module
+    dependency before we can use it to output junit format.
+    
+    Closes #178
+
+[33mcommit fbfde7c2cfb6fdbc661e22ad96b47d568b80eeea[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Sat May 3 19:41:16 2014 +0100
+
+    feat(myApp.controllers): add $scope param to clarify annotation
+    
+    Closes #154
+
+[33mcommit b76b5f5a2eeb1e3b8cf1b426f5210fedf805b4d8[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Sat May 3 16:41:24 2014 +0100
+
+    feat(index): use html5-boilerplate HTML, modernizr and styles
+    
+    Closes #1
+
+[33mcommit caadfb8c7e087950248462353db2c716e92bfb30[m
+Author: Paul Melnikow <paul.melnikow@bodylabs.com>
+Date:   Mon Mar 31 11:16:39 2014 -0400
+
+    fix(package.json): bind web server only to localhost
+    
+    It's better to bind to localhost only during development, since it improves security.
+    It also avoids a pesky warning under Mac OS.
+    
+    Closes #165
+
+[33mcommit 856f32bf6244664419c3eb88db02bcae1c107c8a[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Sat May 3 07:03:11 2014 +0100
+
+    docs(README): add info about prerequisites
+
+[33mcommit 3a0305258a296cb510a5050b0eb0f507cbf22f13[m
+Author: Michal Zielenkiewicz <michal.zielenkiewicz@allegro.pl>
+Date:   Wed Apr 23 09:33:47 2014 +0200
+
+    chore(lib): remove lib folder
+    
+    It is not being used anymore - angular-mocks should be installed by bower.
+    
+    Closes #181
+
+[33mcommit 08226c281535514093bb94eed8bf49603de25560[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri May 2 21:59:49 2014 +0100
+
+    chore(package): add extra scripts to make life even smoother
+
+[33mcommit d38e34855b4bda3efaeed63a81844ef94331e3b2[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Mar 28 13:00:02 2014 +0000
+
+    chore(jshint): add jshint config file
+
+[33mcommit ac40b5e609d1ea518f9c998485284f42de762a63[m
+Author: Anders Sundman <anders@4zm.org>
+Date:   Sat Oct 12 14:59:58 2013 +0200
+
+    style(filters): add missing semicolon
+
+[33mcommit ac4285c4437f6c79f32c000b754c5d0dc90f08f8[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Mar 28 12:55:54 2014 +0000
+
+    chore(travis): install the webdriver for protractor
+
+[33mcommit 009dd14f96ba6af4d356033bd6ce1815cfa33126[m
+Author: Chris Moultrie <cmoultrie@endgames.us>
+Date:   Mon May 6 14:52:03 2013 -0400
+
+    test(controllers): use $controller to get hold of a controller for testing
+    
+    Closes #75
+
+[33mcommit 99b1ed93df6ada8c2fe326f437fdf5b02eb5c008[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Mar 28 12:43:58 2014 +0000
+
+    chore(travis): run http-server in the background
+
+[33mcommit dd8deaff2b7028de2e2a80fc626cdc4c1c7e95f6[m
+Author: Scott Sword <scott.o.sword@gmail.com>
+Date:   Fri Jan 31 14:16:28 2014 -0700
+
+    style(controllers): consistent use of dots
+    
+    The second controller led with a period while the first did not.
+    Moving the period in front of the first controller creates consistency
+    and more explicitly conveys the chaining behavior.
+    
+    Closes #138
+
+[33mcommit 5e3c0d257396e2fe9d0773d996b441585501cc9f[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Mar 28 12:25:10 2014 +0000
+
+    chore(travis): use more recent version of node
+
+[33mcommit 84c9723b21b14a90c734ff217c9aee7547c66bf1[m
+Author: Kara <kara.erickson3@gmail.com>
+Date:   Sun Mar 9 15:56:20 2014 -0700
+
+    docs(LICENSE): update copyright year to 2014
+    
+    Closes #155
+
+[33mcommit fb0c917a70badf5ac4e4638fb941782d6e34b6a1[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Mar 28 12:08:30 2014 +0000
+
+    docs(README): npm test watches files for changes
+
+[33mcommit fe52eca719742b774b51cce9316c99aa9aae2e67[m
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Mar 28 12:03:48 2014 +0000
+
+    chore(package.json): watch test files by
